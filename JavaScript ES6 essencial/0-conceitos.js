@@ -9,4 +9,25 @@
     - Adiciona funcionalidades que o JS não tem por padrão (interface, enums, permite tipo generics,...).
 
 - Funções de primeira classe e ordem maior. Função de primeira classe, esse termo significa que a função pode ser atribuída a uma variável, a uma estrutura de dados (object, array), podem ser passadas como argumentos, e até retornada por outras funções.
+
+- Escopos
+
+    // escopo global
+
+    -------------------------
+
+    {
+        // escopo de bloco
+    }
+
+    if(...){
+        
+    }
+
+    -------------------------
+    
+    function fn() {
+        // escopo de função
+    }
 */
+
